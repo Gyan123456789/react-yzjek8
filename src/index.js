@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 // import App from "./App";
 // import Heading  from "./Heading";
  import "./style.css";
-let curDate = new Date(2022, 8, 2, 20);
+let curDate = new Date();
 curDate = curDate.getHours();
 let greeting = ' ';
 const cssStyle = {
