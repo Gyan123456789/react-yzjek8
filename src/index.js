@@ -16,19 +16,13 @@ if (curDate >= 1 && curDate < 12) {
   cssStyle.color = 'green';
 } else if (curDate >= 12 && curDate < 19) {
   greeting = 'Good Afternoon';
-  cssStyle.color = 'orange';
-} else {
-  greeting = 'Good Night';
-  cssStyle.color = 'brown';
-}
+  cssStyle
+
+
 
 ReactDOM.render(
   <>
-    <div>
-      <h2>
-        Hello sir, <span style={cssStyle}>{greeting}</span>
-      </h2>
-    </div>
+      
   </>,
   document.getElementById('root')
 );
